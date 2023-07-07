@@ -10,6 +10,10 @@ mongoose.set('strictQuery', true);
 const port = 5000;
 const app = express();
 app.use(cors());
+app.get("/",(req,res) =>{
+  res.setHeader("Access-control-Allow-Credentials","true");
+  res.send("api is running")
+})
 app.use(express.json());
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
