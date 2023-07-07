@@ -16,6 +16,7 @@ password : "sahil@123"
 user can search flight based on origin, destination, time, date 
 
 SOME DUMMY FLIGHT DATA ARE:
+
 {origin "Delhi"
 destination: "Mumbai"
 time "09:00 AM"
